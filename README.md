@@ -1,5 +1,5 @@
 # Retail-Sales-Analysis
-Analyzing retail sales data using SQL, Excel and Power BI
+End-to-end retail sales analytics project featuring SQL analysis, Excel exploration, and Power BI dashboards to generate actionable business insights.
 # Retail Sales Performance Analysis
 
 ## Project Overview
