@@ -72,3 +72,18 @@ SELECT
 		ELSE 'Loss'
 	END AS status
 FROM orders;
+
+-- Which individual orders generated high sales but ended up making a loss?
+
+SELECT 
+	order_id FROM orders
+WHERE sales > 500 AND profit <= 0;
+
+-- Can you also show me the sales amount and the loss?
+
+SELECT 
+	order_id,
+	sales,
+	profit
+FROM orders
+WHERE sales > 500 AND profit <= 0
