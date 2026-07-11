@@ -6,7 +6,7 @@ End-to-end Retail Sales Analysis project using the Superstore dataset to uncover
 
 ## Project Overview
 
-This project focuses on analyzing retail sales data to identify sales trends, customer purchasing behavior, product performance, profitability, and return patterns. The objective is to transform raw business data into actionable insights that support data-driven decision-making.
+This project focuses on analyzing retail sales data to identify sales trends, customer purchasing behavior, product performance, profitability, and return patterns. The objective is to transform raw business data into actionable insights that support data-driven decision-making!
 
 ---
 
@@ -21,6 +21,8 @@ This project answers business questions such as:
 - Which Regional Managers generate the highest sales and profit?
 - Which customers generate high sales but also return products?
 - Which customers have never returned an order?
+
+These are the major questions that make us understand the business needs, help us improve the action forward 
 
 ---
 
@@ -76,11 +78,26 @@ This project answers business questions such as:
 ---
 
 # Current Progress
-| SQL Business Analysis | ✅ Completed |
+| SQL Business Analysis | Implemented |
+
+SQL Concepts utilized
+
+✔ SELECT
+✔ WHERE
+✔ GROUP BY
+✔ LIMIT
+✔ HAVING
+✔ CASE WHEN
+✔ CTE
+✔ Window Functions
+✔ INNER JOIN
+✔ LEFT JOIN
+✔ Aggregate Functions
+✔ Business Analysis
 
 ---
 
-## 📁 Dataset **Sample Superstore Dataset**
+##  Dataset **Sample Superstore Dataset**
 
 Tables used:
 
@@ -95,10 +112,10 @@ Tables used:
 - Excel data cleaning and analysis
 - Interactive Power BI dashboards
 - KPI dashboard creation
-- Business recommendations
+- Business recommendations (using dashboards)
 - Executive summary and insights
 
 ---
 
-## 👨‍💻 Author *Guhamani V*
- Data Analyst | SQL | Excel | Power BI
+## Author *Guhamani V*
+ Data Analyst | Turning Data into actionable insights | SQL | Excel | Power BI
