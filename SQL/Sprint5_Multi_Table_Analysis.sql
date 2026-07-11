@@ -91,3 +91,48 @@ JOIN returns r
 ON o.order_id = r.order_id
 GROUP BY o.category
 ORDER BY count_of_return DESC;
+
+-- Which customers generated the highest sales but also returned products?
+
+SELECT 
+	o.customer_name,
+	SUM(o.sales) AS high_sales,
+	r.returned
+FROM orders o
+JOIN returns r
+ON o.order_id = r.order_id
+GROUP BY o.customer_name, r.returned
+ORDER BY high_sales DESC;
+
+-- Which customers have never returned an order?
+
+SELECT 
+	o.order_id,
+	o.customer_name
+FROM orders o
+LEFT JOIN returns r
+ON o.order_id = r.order_id
+WHERE r.returned IS NULL;
+
+-- Among customers who returned products, 
+--show only those whose total returned-order sales 
+--exceed the overall average returned-order sales.
+
+WITH total_return AS (
+	SELECT 
+		o.customer_name,
+		SUM(o.sales) AS high_sales
+	FROM orders o
+	JOIN returns r
+	ON o.order_id = r.order_id
+	GROUP BY o.customer_name
+)
+SELECT 
+	*
+FROM total_return
+WHERE high_sales >
+	(
+		SELECT avg(high_sales) AS avg_sales
+		FROM total_return
+	)
+;
