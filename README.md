@@ -26,14 +26,8 @@ These are the major questions that make us understand the business needs, help u
 
 ---
 
-## Tools Used
-
-- PostgreSQL
-- Microsoft Excel
-
----
-
 # SQL Analysis Completed
+![SQL](https://img.shields.io/badge/SQL-PostgreSQL-blue?logo=postgresql)
 
 ## Sprint 1 – Sales Performance Analysis
 - Sales performance analysis across products, customers, and regions.
@@ -77,9 +71,6 @@ These are the major questions that make us understand the business needs, help u
 
 ---
 
-# Current Progress
-| SQL Business Analysis | Implemented |
-
 SQL Concepts utilized
 
 ✔ SELECT
@@ -107,15 +98,154 @@ Tables used:
 
 ---
 
-##  Future Enhancements
+## Day 7 – Excel Data Cleaning
 
-- Excel data cleaning and analysis
-- Interactive Power BI dashboards
-- KPI dashboard creation
-- Business recommendations (using dashboards)
-- Executive summary and insights
+### Objective
+
+Prepared the raw retail sales dataset for analysis by performing data cleaning and transformation using Excel Power Query.
+
+### Tasks Completed
+
+- Imported the raw dataset into Power Query.
+
+- Corrected data types (Date, Text, Number).
+
+- Removed leading and trailing whitespace.
+
+- Standardized text formatting using proper capitalization.
+
+- Merged location-related columns for improved readability.
+
+- Removed duplicate records.
+
+- Investigated missing and erroneous values.
+
+- Replaced Postal Code errors with "Unknown" to preserve transaction records.
+
+- Loaded the cleaned dataset into Excel for dashboard development.
+
+### Outcome
+
+Created a cleaned and standardized dataset (`clean\_data.xlsx`) that will be used as the source for Excel dashboards and Power BI reports.
+
+## Day 8 – Excel Dashboard Development
+
+### Objective
+
+Built the foundation of an interactive Excel dashboard using PivotTables and PivotCharts to analyze retail sales performance.
+
+### Tasks Completed
+
+- Created PivotTables to summarize sales by Category, Region, Month-Year, and Customer.
+- Built Pivot Charts including:
+  - Sales by Category
+  - Sales by Region
+  - Monthly Sales Trend
+  - Top 10 Customers by Sales
+- Applied sorting and filtering to identify top-performing customers.
+- Organized PivotTables and charts for dashboard development.
+
+### Outcome
+
+Developed the analytical components required for an interactive Excel dashboard, providing insights into sales performance across different business dimensions.
+
+## Day 9 – Interactive Excel Dashboard
+
+### Objective
+
+Designed and completed an interactive Excel dashboard that enables dynamic analysis of retail sales data.
+
+### Tasks Completed
+
+- Created KPI cards displaying:
+  - Total Sales
+  - Total Profit
+  - Total Orders
+  - Total Customers
+- Designed a dashboard layout with consistent formatting.
+- Added interactive slicers for:
+  - Category
+  - Region
+  - Segment
+- Connected slicers to all PivotTables for synchronized filtering.
+- Finalized chart formatting and dashboard presentation.
+
+### Dashboard Features
+
+- Interactive filtering using slicers
+- KPI summary cards
+- Sales by Category
+- Sales by Region
+- Monthly Sales Trend
+- Top 10 Customers by Sales
+
+### Outcome
+
+Delivered a fully interactive Excel dashboard capable of analyzing retail sales performance across multiple business dimensions. The dashboard serves as a business reporting tool that enables users to explore trends, regional performance, customer sales, and category-level insights.
+
+# Retail Sales Dashboard (Power BI)
+
+## Overview
+
+An interactive Power BI dashboard built using the Superstore retail dataset to analyze sales performance, profitability, customer behavior, and business trends.
+
+The dashboard enables users to explore key business metrics through interactive slicers and visualizations, providing valuable insights for decision-making.
+
+# Excel Analysis completed
+![Excel](https://img.shields.io/badge/Excel-Dashboard-green?logo=microsoft-excel)
 
 ---
+
+## Day 10 - Interactive Power BI Dashboard
+
+---
+
+## Dashboard Features
+
+- Interactive KPI Cards
+  - Total Sales
+  - Total Profit
+  - Total Orders
+  - Total Customers
+
+- Interactive Filters
+  - Region
+  - Segment
+  - Year
+
+- Visualizations
+  - Monthly Sales Trend
+  - Sales by Category
+  - Profit by Sub-Category
+  - Sales by Segment (Donut Chart)
+  - Top 10 Customers (Treemap)
+
+---
+
+## Key Business Insights
+
+- Technology generated the highest overall sales.
+- Copiers and Phones were among the most profitable sub-categories.
+- Tables recorded a negative profit, indicating an underperforming product line.
+- Consumer Segment contributed the largest share of total sales.
+- Sales increased significantly during the final months of the year.
+
+---
+
+## Project Outcome
+
+Developed a professional Power BI dashboard that transforms retail sales data into actionable business insights through interactive reporting and visualization.
+
+# Power BI Analysis completed
+![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow?logo=powerbi)
+
+## Overall Project Outcome
+
+This project demonstrates the complete workflow of a Data Analyst—from cleaning raw data and performing SQL analysis to designing interactive dashboards in Excel and Power BI. It showcases technical skills, business analysis, and data visualization techniques used to support data-driven decision-making.
+
+# Retail Sales Analysis - overall portfolio - Done!
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
 
 ## Author *Guhamani V*
  Data Analyst | Turning Data into actionable insights | SQL | Excel | Power BI
