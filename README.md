@@ -183,6 +183,9 @@ Designed and completed an interactive Excel dashboard that enables dynamic analy
 
 Delivered a fully interactive Excel dashboard capable of analyzing retail sales performance across multiple business dimensions. The dashboard serves as a business reporting tool that enables users to explore trends, regional performance, customer sales, and category-level insights.
 
+# Excel Analysis completed
+![Excel](https://img.shields.io/badge/Excel-Dashboard-green?logo=microsoft-excel)
+
 # Retail Sales Dashboard (Power BI)
 
 ## Overview
@@ -190,9 +193,6 @@ Delivered a fully interactive Excel dashboard capable of analyzing retail sales 
 An interactive Power BI dashboard built using the Superstore retail dataset to analyze sales performance, profitability, customer behavior, and business trends.
 
 The dashboard enables users to explore key business metrics through interactive slicers and visualizations, providing valuable insights for decision-making.
-
-# Excel Analysis completed
-![Excel](https://img.shields.io/badge/Excel-Dashboard-green?logo=microsoft-excel)
 
 ---
 
